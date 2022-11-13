@@ -14,7 +14,7 @@
 	<name>online-energy-utility-platform</name>
 	<description>Online Energy Utility Platform</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
