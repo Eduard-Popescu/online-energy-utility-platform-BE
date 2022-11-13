@@ -20,7 +20,7 @@ public class DeviceConsumptionScheduler {
     this.localDateTime = LocalDateTime.now();
   }
 
-  @Scheduled(cron = "*/59 * * * * *")
+  @Scheduled(cron = "*/59 * 1 * * *")
   public void execute(){
     localDateTime = localDateTime.plusHours(1L);
     log.info("Scheduler executed at {}", LocalDateTime.now());
